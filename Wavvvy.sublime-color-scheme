@@ -6,11 +6,12 @@
     "yellow": "#FAC863",
     "green": "#99C794",
     "teal": "#5FB3B3",
-    "blue": "6699CC",
+    "blue": "#6699CC",
     "purple": "#C594C5",
     "brown": "#AB7967",
     "white": "#CDD3DE",
     "black": "#1B2B34",
+    "grey": "#65737E",
   },
   "globals": {
     "background": "#1B2B34",
@@ -36,9 +37,69 @@
     "guide": "#4F5B66",
     "active_guide": "#4F5B66",
     "stack_guide": "#4F5B66",
-    "bracket_options": "foreground squiggly_underline",
+    "bracket_options": "foreground",
     "brackets_foreground": "#5FB3B3",
-    "bracket_contents_options": "foreground",
+    "bracket_contents_options": "underline",
     "bracket_contents_foreground": "#5FB3B3"
-  }
+  },
+  "rules": [
+    {
+      "name": "Language-Specific Keywords (reserved words)",
+      "scope": "keyword.control",
+      "foreground": "var(purple)"
+    }, {
+      "name": "Strings",
+      "scope": "string",
+      "foreground": "var(green)"
+    }, {
+      "name": "Built-in Types",
+      "scope": "storage.type",
+      "foreground": "var(purple)",
+    }, {
+      "name": "Comments",
+      "scope": "comment",
+      "foreground": "var(grey)",
+    }, {
+      "name": "Function Names",
+      "scope": "entity.name.function, variable.function",
+      "foreground": "var(blue)",
+    }, {
+      "name": "Method Calls (innvocations of a method by name)",
+      "scope": "meta.function-call.method variable.function",
+      "foreground": "var(blue)",
+    }, {
+      "name": "Function Definition Parameters",
+      "scope": "variable.parameter",
+      "foreground": "var(orange)"
+    }, {
+      "name": "Groupped Punctuation (brackets, parentheses)",
+      "scope": "punctuation.definition.group",
+      "foreground": "var(white)",
+    }, {
+      "name": "Language Operators",
+      "scope": "keyword.operator",
+      "foreground": "var(teal)",
+    }, {
+      "name": "Language Constants",
+      "scope": "constant.language, constant.numeric",
+      "foreground": "var(orange)",
+    }, {
+      "name": "Numeric Constants",
+      "scope": "constant.numeric",
+      "foreground": "var(orange)",
+    }, {
+      "name": "Object Properties / Struct Members",
+      "scope": "variable.other.member",
+      "foreground": "var(red)",
+    }, {
+      "name": "Label Names",
+      "scope": "entity.name.label",
+      "foreground": "var(teal)",
+      "font_style": "italic",
+    }, {
+      "name": "Class Names / Struct Names / Custom Types",
+      "scope": "entity.name.struct, entity.name.type",
+      "foreground": "var(yellow)",
+    }
+  ]
 }
