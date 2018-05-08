@@ -130,6 +130,22 @@
       "scope": "variable.language.this",
       "foreground": "var(red)",
       "font_style": "italic",
+    }, {
+      "name": "HTML Punctuation",
+      "scope": "text.html.basic punctuation.definition.tag, text.html.basic punctuation.separator.key-value",
+      "foreground": "var(teal)",
+    }, {
+      "name": "HTML DocType",
+      "scope": "meta.tag.sgml.doctype.html entity.name.tag.doctype.html",
+      "foreground": "var(yellow)",
+    }, {
+      "name": "HTML Tag",
+      "scope": "meta.tag.sgml.doctype.html, text.html.basic entity.name.tag",
+      "foreground": "var(red)",
+    }, {
+      "name": "HTML Attribute",
+      "scope": "text.html.basic entity.other.attribute-name",
+      "foreground": "var(orange)",
     }
   ]
 }
