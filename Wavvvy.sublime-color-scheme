@@ -146,6 +146,38 @@
       "name": "HTML Attribute",
       "scope": "text.html.basic entity.other.attribute-name",
       "foreground": "var(orange)",
+    }, {
+      "name": "CSS Selector",
+      "scope": "source.css meta.selector.css",
+      "foreground": "var(blue)",
+    }, {
+      "name": "CSS Property Name",
+      "scope": "source.css meta.property-name.css",
+      "foreground": "var(green)",
+    }, {
+      "name": "CSS @-rule Property Name",
+      "scope": "source.css support.type.property-name",
+      "foreground": "var(green)",
+    }, {
+      "name": "CSS Constant Property Values",
+      "scope": "source.css support.constant.property-value",
+      "foreground": "var(yellow)",
+    }, {
+      "name": "CSS Constant Color Values",
+      "scope": "source.css constant.other.color",
+      "foreground": "var(teal)",
+    }, {
+      "name": "CSS Pseudo-Class",
+      "scope": "source.css entity.other.pseudo-class",
+      "foreground": "var(red)",
+    }, {
+      "name": "CSS !important",
+      "scope": "source.css keyword.other.important",
+      "foreground": "var(purple)",
+    }, {
+      "name": "CSS Animation Name",
+      "scope": "source.css entity.other.animation-name",
+      "foreground": "var(yellow)",
     }
   ]
 }
