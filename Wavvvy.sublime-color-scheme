@@ -53,7 +53,7 @@
       "foreground": "var(green)"
     }, {
       "name": "Built-in Types",
-      "scope": "storage.type",
+      "scope": "storage.type, storage.modifier",
       "foreground": "var(purple)",
     }, {
       "name": "Comments",
@@ -61,11 +61,11 @@
       "foreground": "var(grey)",
     }, {
       "name": "Function Names",
-      "scope": "entity.name.function, variable.function",
+      "scope": "entity.name.function, variable.function, support.function",
       "foreground": "var(blue)",
     }, {
       "name": "Method Calls (innvocations of a method by name)",
-      "scope": "meta.function-call.method variable.function",
+      "scope": "meta.function-call.method variable.function, support.function.mutator",
       "foreground": "var(blue)",
     }, {
       "name": "Function Definition Parameters",
@@ -81,7 +81,7 @@
       "foreground": "var(teal)",
     }, {
       "name": "Language Constants",
-      "scope": "constant.language, constant.numeric",
+      "scope": "constant.language, constant.numeric, support.type.object",
       "foreground": "var(orange)",
     }, {
       "name": "Numeric Constants",
@@ -89,7 +89,7 @@
       "foreground": "var(orange)",
     }, {
       "name": "Object Properties / Struct Members",
-      "scope": "variable.other.member",
+      "scope": "variable.other.member, variable.other.constant, variable.other.property.static",
       "foreground": "var(red)",
     }, {
       "name": "Label Names",
@@ -98,7 +98,7 @@
       "font_style": "italic",
     }, {
       "name": "Class Names / Struct Names / Custom Types",
-      "scope": "entity.name.struct, entity.name.type",
+      "scope": "entity.name.struct, entity.name.type, variable.other.class, entity.name.class, support.class.builtin, support.class.error",
       "foreground": "var(yellow)",
     }, {
       "name": "String (Constant) Placeholders",
@@ -106,8 +106,30 @@
       "foreground": "var(orange)",
     }, {
       "name": "String (Escape) Placeholders",
-      "scope": "string constant.character.escape",
+      "scope": "string constant.character.escape, keyword.other.substitution, punctuation.definition.template-expression",
       "foreground": "var(teal)",
+    }, {
+      "name": "JSX Tag",
+      "scope": "meta.tag.jsx",
+      "foreground": "var(red)",
+    }, {
+      "name": "JSX Prop",
+      "scope": "meta.jsx.js entity.other.attribute-name.jsx",
+      "foreground": "var(orange)",
+    }, {
+      "name": "JSX Punctuation",
+      "scope": "meta.jsx.js punctuation.definition.tag",
+      "foreground": "var(teal)",
+    }, {
+      "name": "super() Function",
+      "scope": "variable.language.super",
+      "foreground": "var(blue)",
+      "font_style": "italic"
+    }, {
+      "name": "this Keyword",
+      "scope": "variable.language.this",
+      "foreground": "var(red)",
+      "font_style": "italic",
     }
   ]
 }
