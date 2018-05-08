@@ -100,6 +100,14 @@
       "name": "Class Names / Struct Names / Custom Types",
       "scope": "entity.name.struct, entity.name.type",
       "foreground": "var(yellow)",
+    }, {
+      "name": "String (Constant) Placeholders",
+      "scope": "string constant.other.placeholder",
+      "foreground": "var(orange)",
+    }, {
+      "name": "String (Escape) Placeholders",
+      "scope": "string constant.character.escape",
+      "foreground": "var(teal)",
     }
   ]
 }
