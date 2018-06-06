@@ -140,11 +140,11 @@
       "foreground": "var(yellow)",
     }, {
       "name": "HTML Tag",
-      "scope": "meta.tag.sgml.doctype.html, text.html.basic entity.name.tag",
+      "scope": "meta.tag.sgml.doctype.html, text.html.basic entity.name.tag, entity.name.tag.tsx",
       "foreground": "var(red)",
     }, {
       "name": "HTML Attribute",
-      "scope": "text.html.basic entity.other.attribute-name",
+      "scope": "text.html.basic entity.other.attribute-name, meta.tag.attributes.tsx entity.other.attribute-name",
       "foreground": "var(orange)",
     }, {
       "name": "CSS Selector",
