@@ -132,7 +132,7 @@
       "font_style": "italic",
     }, {
       "name": "HTML Punctuation",
-      "scope": "text.html.basic punctuation.definition.tag, text.html.basic punctuation.separator.key-value",
+      "scope": "text.html.basic punctuation.definition.tag, text.html.basic punctuation.separator.key-value, punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.tsx",
       "foreground": "var(teal)",
     }, {
       "name": "HTML DocType",
@@ -176,6 +176,10 @@
       "foreground": "var(purple)",
     }, {
       "name": "CSS Animation Name",
+      "scope": "source.css entity.other.animation-name",
+      "foreground": "var(yellow)",
+    }, {
+      "name": "Typescript Built-in Types",
       "scope": "source.css entity.other.animation-name",
       "foreground": "var(yellow)",
     }
