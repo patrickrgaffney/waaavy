@@ -182,6 +182,14 @@
       "name": "Typescript Built-in Types",
       "scope": "source.css entity.other.animation-name",
       "foreground": "var(yellow)",
+    }, {
+      "name": "Shell Variables",
+      "scope": "variable.other.readwrite.shell, punctuation.definition.variable.shell",
+      "foreground": "var(red)",
+    }, {
+      "name": "Shell Variable Punctuation",
+      "scope": "punctuation.definition.variable.shell, punctuation.section.expansion.parameter.begin.shell, punctuation.section.expansion.parameter.end.shell, punctuation.section.parens.begin.shell, punctuation.section.parens.end.shell",
+      "foreground": "var(teal)",
     }
   ]
 }
