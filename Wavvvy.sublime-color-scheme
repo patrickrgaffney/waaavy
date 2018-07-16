@@ -190,6 +190,18 @@
       "name": "Shell Variable Punctuation",
       "scope": "punctuation.definition.variable.shell, punctuation.section.expansion.parameter.begin.shell, punctuation.section.expansion.parameter.end.shell, punctuation.section.parens.begin.shell, punctuation.section.parens.end.shell",
       "foreground": "var(teal)",
+    }, {
+      "name": "TOML Entity Tag Names",
+      "scope": "entity.name.tag.toml",
+      "foreground": "var(red)",
+    }, {
+      "name": "TOML Table Names",
+      "scope": "entity.name.table.toml, entity.name.table.array.toml",
+      "foreground": "var(blue)",
+    } , {
+      "name": "TOML Punctuation",
+      "scope": "punctuation.definition.key-value.toml, punctuation.definition.table.begin.toml, punctuation.definition.table.end.toml, punctuation.definition.table.array.begin.toml, punctuation.definition.table.array.end.toml",
+      "foreground": "var(teal)",
     }
   ]
 }
