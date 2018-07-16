@@ -198,10 +198,34 @@
       "name": "TOML Table Names",
       "scope": "entity.name.table.toml, entity.name.table.array.toml",
       "foreground": "var(blue)",
-    } , {
+    }, {
       "name": "TOML Punctuation",
       "scope": "punctuation.definition.key-value.toml, punctuation.definition.table.begin.toml, punctuation.definition.table.end.toml, punctuation.definition.table.array.begin.toml, punctuation.definition.table.array.end.toml",
       "foreground": "var(teal)",
+    }, {
+      "name": "Markdown Headings",
+      "scope": "markup.heading.1.markdown, markup.heading.2.markdown, markup.heading.markdown",
+      "foreground": "var(green)",
+    }, {
+      "name": "Markdown Punctuation",
+      "scope": "punctuation.definition.heading.begin.markdown, punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.end.markdown, punctuation.definition.metadata.begin.markdown",
+      "foreground": "var(teal)"
+    }, {
+      "name": "Markdown FCB Language Name",
+      "scope": "constant.other.language-name.markdown",
+      "foreground": "var(orange)"
+    }, {
+      "name": "Markdown Inline Code",
+      "scope": "markup.raw.inline.markdown",
+      "foreground": "var(yellow)"
+    }, {
+      "name": "Markdown Inline Link",
+      "scope": "meta.link.inline.markdown",
+      "foreground": "var(red)"
+    }, {
+      "name": "Markdown Inline Link Description",
+      "scope": "meta.link.inline.description.markdown",
+      "foreground": "var(blue)"
     }
   ]
 }
