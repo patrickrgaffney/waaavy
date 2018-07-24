@@ -208,7 +208,7 @@
       "foreground": "var(green)",
     }, {
       "name": "Markdown Punctuation",
-      "scope": "punctuation.definition.heading.begin.markdown, punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.end.markdown, punctuation.definition.metadata.begin.markdown",
+      "scope": "punctuation.definition.heading.begin.markdown, punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.end.markdown, punctuation.definition.metadata.begin.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.list_item.markdown",
       "foreground": "var(teal)"
     }, {
       "name": "Markdown FCB Language Name",
@@ -226,6 +226,20 @@
       "name": "Markdown Inline Link Description",
       "scope": "meta.link.inline.description.markdown",
       "foreground": "var(blue)"
+    }, {
+      "name": "Markdown Inline Bold",
+      "scope": "markup.bold.markdown",
+      "foreground": "var(purple)",
+      "font_style": "bold"
+    }, {
+      "name": "Markdown Inline Italic",
+      "scope": "markup.italic.markdown",
+      "foreground": "var(orange)",
+      "font_style": "italic"
+    }, {
+      "name": "Markdown Blockquote",
+      "scope": "markup.quote.markdown",
+      "foreground": "var(brown)",
     }
   ]
 }
