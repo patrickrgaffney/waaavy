@@ -240,6 +240,34 @@
       "name": "Markdown Blockquote",
       "scope": "markup.quote.markdown",
       "foreground": "var(brown)",
+    }, {
+      "name": "Java Keywords",
+      "scope": "keyword.other.package.java, keyword.declaration.extends.java",
+      "foreground": "var(purple)",
+    }, {
+      "name": "Java Namespace",
+      "scope": "entity.name.namespace.java",
+      "foreground": "var(green)",
+    }, {
+      "name": "Java Support Class",
+      "scope": "support.class.java",
+      "foreground": "var(orange)",
+    }, {
+      "name": "Java Punctuation",
+      "scope": "punctuation.definition.generic.begin.java, punctuation.definition.generic.end.java",
+      "foreground": "var(teal)",
+    }, {
+      "name": "Java Annotations",
+      "scope": "variable.annotation.java, punctuation.definition.annotation.java",
+      "foreground": "var(teal)",
+    }, {
+      "name": "Java this Keyword",
+      "scope": "variable.language.java",
+      "foreground": "var(red)",
+    }, {
+      "name": "Java Inheritied Class",
+      "scope": "entity.other.inherited-class.java",
+      "foreground": "var(brown)",
     }
   ]
 }
