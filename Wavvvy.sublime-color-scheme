@@ -272,6 +272,10 @@
       "name": "Javascript Inherited Class",
       "scope": "entity.other.inherited-class.js",
       "foreground": "var(green)",
+    }, {
+      "name": "Javascript Constructor Calls",
+      "scope": "meta.function-call.constructor.js variable.type.js",
+      "foreground": "var(yellow)",
     }
   ]
 }
