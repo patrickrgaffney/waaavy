@@ -276,6 +276,14 @@
       "name": "Javascript Constructor Calls",
       "scope": "meta.function-call.constructor.js variable.type.js",
       "foreground": "var(yellow)",
+    }, {
+      "name": "Javascript Object Literal Keys",
+      "scope": "meta.object-literal.js meta.object-literal.key.js",
+      "foreground": "var(green)",
+    }, {
+      "name": "Javascript Object Literal Separators",
+      "scope": "meta.object-literal.js punctuation.separator.key-value.js",
+      "foreground": "var(teal)",
     }
   ]
 }
