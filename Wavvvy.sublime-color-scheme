@@ -284,6 +284,10 @@
       "name": "Javascript Object Literal Separators",
       "scope": "meta.object-literal.js punctuation.separator.key-value.js",
       "foreground": "var(teal)",
+    }, {
+      "name": "CSS Combinator Punctuation",
+      "scope": "punctuation.separator.combinator.css",
+      "foreground": "var(teal)",
     }
   ]
 }
