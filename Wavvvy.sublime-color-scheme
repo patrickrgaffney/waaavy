@@ -98,7 +98,7 @@
       "font_style": "italic",
     }, {
       "name": "Class Names / Struct Names / Custom Types",
-      "scope": "entity.name.struct, entity.name.type, variable.other.class, entity.name.class, support.class.builtin, support.class.error",
+      "scope": "entity.name.struct, entity.name.type, variable.other.class, entity.name.class, support.class.builtin, support.class.error, support.class",
       "foreground": "var(yellow)",
     }, {
       "name": "String (Constant) Placeholders",
@@ -288,6 +288,10 @@
       "name": "CSS Combinator Punctuation",
       "scope": "punctuation.separator.combinator.css",
       "foreground": "var(teal)",
+    }, {
+      "name": "Javascript Prototype Property",
+      "scope": "support.constant.prototype.js",
+      "foreground": "var(orange)"
     }
   ]
 }
