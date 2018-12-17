@@ -292,6 +292,10 @@
       "name": "Javascript Prototype Property",
       "scope": "support.constant.prototype.js",
       "foreground": "var(orange)"
+    }, {
+      "name": "Node.js Constants",
+      "scope": "support.constant.node.js",
+      "foreground": "var(orange)"
     }
   ]
 }
