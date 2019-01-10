@@ -296,6 +296,10 @@
       "name": "Node.js Constants",
       "scope": "support.constant.node.js",
       "foreground": "var(orange)"
+    }, {
+      "name": "CSS HTML Tag Name",
+      "scope": "entity.name.tag.css",
+      "foreground": "var(purple)"
     }
   ]
 }
