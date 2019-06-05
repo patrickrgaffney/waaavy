@@ -300,6 +300,30 @@
       "name": "CSS HTML Tag Name",
       "scope": "entity.name.tag.css",
       "foreground": "var(purple)"
+    }, {
+      "name": "Scala import Keyword",
+      "scope": "keyword.other.import.scala",
+      "foreground": "var(purple)"
+    }, {
+      "name": "Scala Class Constants",
+      "scope": "support.constant.scala",
+      "foreground": "var(yellow)"
+    }, {
+      "name": "Scala new Keyword",
+      "scope": "keyword.other.scala",
+      "foreground": "var(teal)"
+    }, {
+      "name": "Scala case Keyword",
+      "scope": "keyword.other.declaration.scala",
+      "foreground": "var(purple)"
+    }, {
+      "name": "Scala extends Keyword",
+      "scope": "keyword.declaration.scala",
+      "foreground": "var(teal)"
+    }, {
+      "name": "Scala Inherited Class",
+      "scope": "entity.other.inherited-class.scala",
+      "foreground": "var(green)"
     }
   ]
 }
