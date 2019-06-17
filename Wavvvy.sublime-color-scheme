@@ -110,15 +110,15 @@
       "foreground": "var(teal)",
     }, {
       "name": "JSX Tag",
-      "scope": "meta.tag.jsx",
+      "scope": "meta.jsx.js meta.tag.name.js entity.name.tag.js",
       "foreground": "var(red)",
     }, {
       "name": "JSX Prop",
-      "scope": "meta.jsx.js entity.other.attribute-name.jsx",
+      "scope": "meta.jsx.js meta.tag.js entity.other.attribute-name.js",
       "foreground": "var(orange)",
     }, {
       "name": "JSX Punctuation",
-      "scope": "meta.jsx.js punctuation.definition.tag",
+      "scope": "meta.tag.js meta.interpolation.js punctuation.definition.interpolation.begin.js, meta.tag.js meta.interpolation.js punctuation.definition.interpolation.end.js, meta.jsx.js meta.tag.js punctuation.separator.key-value.js, meta.jsx.js meta.tag.js punctuation.definition.tag.begin.js, meta.jsx.js meta.tag.js punctuation.definition.tag.end.js",
       "foreground": "var(teal)",
     }, {
       "name": "super() Function",
