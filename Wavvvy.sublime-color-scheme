@@ -324,6 +324,22 @@
       "name": "Scala Inherited Class",
       "scope": "entity.other.inherited-class.scala",
       "foreground": "var(green)"
+    }, {
+      "name": "SSH Config 'Host' Keyword",
+      "scope": "keyword.declaration.host-alias.ssh_config, keyword.declaration.host.ssh_config",
+      "foreground": "var(purple)"
+    }, {
+      "name": "SSH Config Other Keywords",
+      "scope": "keyword.other.ssh_config",
+      "foreground": "var(blue)"
+    }, {
+      "name": "SSH Config Constant Characters",
+      "scope": "constant.character.escape.ssh_config",
+      "foreground": "var(yellow)"
+    }, {
+      "name": "SSH Config Shell Commands",
+      "scope": "text.ssh_config variable.function.shell",
+      "foreground": "var(red)"
     }
   ]
 }
