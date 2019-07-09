@@ -340,6 +340,30 @@
       "name": "SSH Config Shell Commands",
       "scope": "text.ssh_config variable.function.shell",
       "foreground": "var(red)"
+    }, {
+      "name": "Go package Keyword",
+      "scope": "keyword.other.package.go",
+      "foreground": "var(purple)"
+    }, {
+      "name": "Go import Name",
+      "scope": "keyword.other.import.go",
+      "foreground": "var(purple)"
+    }, {
+      "name": "Go Blank Identifier",
+      "scope": "variable.language.blank.go",
+      "foreground": "var(brown)"
+    }, {
+      "name": "Go Character Constant",
+      "scope": "constant.character.go",
+      "foreground": "var(green)"
+    }, {
+      "name": "Go Character Escape",
+      "scope": "constant.character.escape.go",
+      "foreground": "var(teal)"
+    }, {
+      "name": "Go Other Keywords",
+      "scope": "keyword.other.go",
+      "foreground": "var(purple)"
     }
   ]
 }
