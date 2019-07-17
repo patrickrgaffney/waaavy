@@ -109,18 +109,6 @@
       "scope": "string constant.character.escape, keyword.other.substitution, punctuation.definition.template-expression",
       "foreground": "var(teal)",
     }, {
-      "name": "JSX Tag",
-      "scope": "meta.jsx.js meta.tag.name.js entity.name.tag.js",
-      "foreground": "var(red)",
-    }, {
-      "name": "JSX Prop",
-      "scope": "meta.jsx.js meta.tag.js entity.other.attribute-name.js",
-      "foreground": "var(orange)",
-    }, {
-      "name": "JSX Punctuation",
-      "scope": "meta.tag.js meta.interpolation.js punctuation.definition.interpolation.begin.js, meta.tag.js meta.interpolation.js punctuation.definition.interpolation.end.js, meta.jsx.js meta.tag.js punctuation.separator.key-value.js, meta.jsx.js meta.tag.js punctuation.definition.tag.begin.js, meta.jsx.js meta.tag.js punctuation.definition.tag.end.js",
-      "foreground": "var(teal)",
-    }, {
       "name": "super() Function",
       "scope": "variable.language.super",
       "foreground": "var(blue)",
@@ -131,239 +119,263 @@
       "foreground": "var(red)",
       "font_style": "italic",
     }, {
-      "name": "HTML Punctuation",
+      "name": "JSX: Tag",
+      "scope": "meta.jsx.js meta.tag.name.js entity.name.tag.js",
+      "foreground": "var(red)",
+    }, {
+      "name": "JSX: Prop",
+      "scope": "meta.jsx.js meta.tag.js entity.other.attribute-name.js",
+      "foreground": "var(orange)",
+    }, {
+      "name": "JSX: Punctuation",
+      "scope": "meta.tag.js meta.interpolation.js punctuation.definition.interpolation.begin.js, meta.tag.js meta.interpolation.js punctuation.definition.interpolation.end.js, meta.jsx.js meta.tag.js punctuation.separator.key-value.js, meta.jsx.js meta.tag.js punctuation.definition.tag.begin.js, meta.jsx.js meta.tag.js punctuation.definition.tag.end.js",
+      "foreground": "var(teal)",
+    }, {
+      "name": "HTML: Punctuation",
       "scope": "text.html.basic punctuation.definition.tag, text.html.basic punctuation.separator.key-value, punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.tsx",
       "foreground": "var(teal)",
     }, {
-      "name": "HTML DocType",
+      "name": "HTML: DocType",
       "scope": "meta.tag.sgml.doctype.html entity.name.tag.doctype.html",
       "foreground": "var(yellow)",
     }, {
-      "name": "HTML Tag",
+      "name": "HTML: Tag",
       "scope": "meta.tag.sgml.doctype.html, text.html.basic entity.name.tag, entity.name.tag.tsx",
       "foreground": "var(red)",
     }, {
-      "name": "HTML Attribute",
+      "name": "HTML: Attribute",
       "scope": "text.html.basic entity.other.attribute-name, meta.tag.attributes.tsx entity.other.attribute-name",
       "foreground": "var(orange)",
     }, {
-      "name": "CSS Selector",
+      "name": "CSS: Selector",
       "scope": "source.css meta.selector.css",
       "foreground": "var(blue)",
     }, {
-      "name": "CSS Property Name",
+      "name": "CSS: Property Name",
       "scope": "source.css meta.property-name.css",
       "foreground": "var(green)",
     }, {
-      "name": "CSS @-rule Property Name",
+      "name": "CSS: @-rule Property Name",
       "scope": "source.css support.type.property-name",
       "foreground": "var(green)",
     }, {
-      "name": "CSS Constant Property Values",
+      "name": "CSS: Constant Property Values",
       "scope": "source.css support.constant.property-value",
       "foreground": "var(yellow)",
     }, {
-      "name": "CSS Constant Color Values",
+      "name": "CSS: Constant Color Values",
       "scope": "source.css constant.other.color",
       "foreground": "var(teal)",
     }, {
-      "name": "CSS Pseudo-Class",
+      "name": "CSS: Pseudo-Class",
       "scope": "source.css entity.other.pseudo-class",
       "foreground": "var(red)",
     }, {
-      "name": "CSS !important",
+      "name": "CSS: !important",
       "scope": "source.css keyword.other.important",
       "foreground": "var(purple)",
     }, {
-      "name": "CSS Animation Name",
+      "name": "CSS: Animation Name",
       "scope": "source.css entity.other.animation-name",
       "foreground": "var(yellow)",
     }, {
-      "name": "Typescript Built-in Types",
+      "name": "CSS: Combinator Punctuation",
+      "scope": "punctuation.separator.combinator.css",
+      "foreground": "var(teal)",
+    }, {
+      "name": "CSS: HTML Tag Name",
+      "scope": "entity.name.tag.css",
+      "foreground": "var(purple)"
+    }, {
+      "name": "Typescript: Built-in Types",
       "scope": "source.css entity.other.animation-name",
       "foreground": "var(yellow)",
     }, {
-      "name": "Shell Variables",
+      "name": "Shell: Variables",
       "scope": "variable.other.readwrite.shell, punctuation.definition.variable.shell",
       "foreground": "var(red)",
     }, {
-      "name": "Shell Variable Punctuation",
+      "name": "Shell: Variable Punctuation",
       "scope": "punctuation.definition.variable.shell, punctuation.section.expansion.parameter.begin.shell, punctuation.section.expansion.parameter.end.shell, punctuation.section.parens.begin.shell, punctuation.section.parens.end.shell",
       "foreground": "var(teal)",
     }, {
-      "name": "TOML Entity Tag Names",
+      "name": "TOML: Entity Tag Names",
       "scope": "entity.name.tag.toml",
       "foreground": "var(red)",
     }, {
-      "name": "TOML Table Names",
+      "name": "TOML: Table Names",
       "scope": "entity.name.table.toml, entity.name.table.array.toml",
       "foreground": "var(blue)",
     }, {
-      "name": "TOML Punctuation",
+      "name": "TOML: Punctuation",
       "scope": "punctuation.definition.key-value.toml, punctuation.definition.table.begin.toml, punctuation.definition.table.end.toml, punctuation.definition.table.array.begin.toml, punctuation.definition.table.array.end.toml",
       "foreground": "var(teal)",
     }, {
-      "name": "Markdown Headings",
+      "name": "Markdown: Headings",
       "scope": "markup.heading.1.markdown, markup.heading.2.markdown, markup.heading.markdown",
       "foreground": "var(green)",
     }, {
-      "name": "Markdown Punctuation",
+      "name": "Markdown: Punctuation",
       "scope": "punctuation.definition.heading.begin.markdown, punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.end.markdown, punctuation.definition.metadata.begin.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.list_item.markdown",
       "foreground": "var(teal)"
     }, {
-      "name": "Markdown FCB Language Name",
+      "name": "Markdown: FCB Language Name",
       "scope": "constant.other.language-name.markdown",
       "foreground": "var(orange)"
     }, {
-      "name": "Markdown Inline Code",
+      "name": "Markdown: Inline Code",
       "scope": "markup.raw.inline.markdown",
       "foreground": "var(yellow)"
     }, {
-      "name": "Markdown Inline Link",
+      "name": "Markdown: Inline Link",
       "scope": "meta.link.inline.markdown",
       "foreground": "var(red)"
     }, {
-      "name": "Markdown Inline Link Description",
+      "name": "Markdown: Inline Link Description",
       "scope": "meta.link.inline.description.markdown",
       "foreground": "var(blue)"
     }, {
-      "name": "Markdown Inline Bold",
+      "name": "Markdown: Inline Bold",
       "scope": "markup.bold.markdown",
       "foreground": "var(purple)",
       "font_style": "bold"
     }, {
-      "name": "Markdown Inline Italic",
+      "name": "Markdown: Inline Italic",
       "scope": "markup.italic.markdown",
       "foreground": "var(orange)",
       "font_style": "italic"
     }, {
-      "name": "Markdown Blockquote",
+      "name": "Markdown: Blockquote",
       "scope": "markup.quote.markdown",
       "foreground": "var(brown)",
     }, {
-      "name": "Java Keywords",
+      "name": "Java: Keywords",
       "scope": "keyword.other.package.java, keyword.declaration.extends.java",
       "foreground": "var(purple)",
     }, {
-      "name": "Java Namespace",
+      "name": "Java: Namespace",
       "scope": "entity.name.namespace.java",
       "foreground": "var(green)",
     }, {
-      "name": "Java Support Class",
+      "name": "Java: Support Class",
       "scope": "support.class.java",
       "foreground": "var(orange)",
     }, {
-      "name": "Java Punctuation",
+      "name": "Java: Punctuation",
       "scope": "punctuation.definition.generic.begin.java, punctuation.definition.generic.end.java",
       "foreground": "var(teal)",
     }, {
-      "name": "Java Annotations",
+      "name": "Java: Annotations",
       "scope": "variable.annotation.java, punctuation.definition.annotation.java",
       "foreground": "var(teal)",
     }, {
-      "name": "Java this Keyword",
+      "name": "Java: this Keyword",
       "scope": "variable.language.java",
       "foreground": "var(red)",
     }, {
-      "name": "Java Inheritied Class",
+      "name": "Java: Inheritied Class",
       "scope": "entity.other.inherited-class.java",
       "foreground": "var(green)",
     }, {
-      "name": "Javascript Inherited Class",
+      "name": "Javascript: Inherited Class",
       "scope": "entity.other.inherited-class.js",
       "foreground": "var(green)",
     }, {
-      "name": "Javascript Constructor Calls",
+      "name": "Javascript: Constructor Calls",
       "scope": "meta.function-call.constructor.js variable.type.js",
       "foreground": "var(yellow)",
     }, {
-      "name": "Javascript Object Literal Keys",
+      "name": "Javascript: Object Literal Keys",
       "scope": "meta.object-literal.js meta.object-literal.key.js",
       "foreground": "var(green)",
     }, {
-      "name": "Javascript Object Literal Separators",
+      "name": "Javascript: Object Literal Separators",
       "scope": "meta.object-literal.js punctuation.separator.key-value.js",
       "foreground": "var(teal)",
     }, {
-      "name": "CSS Combinator Punctuation",
-      "scope": "punctuation.separator.combinator.css",
-      "foreground": "var(teal)",
-    }, {
-      "name": "Javascript Prototype Property",
+      "name": "Javascript: Prototype Property",
       "scope": "support.constant.prototype.js",
       "foreground": "var(orange)"
     }, {
-      "name": "Node.js Constants",
+      "name": "Node.js: Constants",
       "scope": "support.constant.node.js",
       "foreground": "var(orange)"
     }, {
-      "name": "CSS HTML Tag Name",
-      "scope": "entity.name.tag.css",
-      "foreground": "var(purple)"
-    }, {
-      "name": "Scala import Keyword",
+      "name": "Scala: import Keyword",
       "scope": "keyword.other.import.scala",
       "foreground": "var(purple)"
     }, {
-      "name": "Scala Class Constants",
+      "name": "Scala: Class Constants",
       "scope": "support.constant.scala",
       "foreground": "var(yellow)"
     }, {
-      "name": "Scala new Keyword",
+      "name": "Scala: new Keyword",
       "scope": "keyword.other.scala",
       "foreground": "var(teal)"
     }, {
-      "name": "Scala case Keyword",
+      "name": "Scala: case Keyword",
       "scope": "keyword.other.declaration.scala",
       "foreground": "var(purple)"
     }, {
-      "name": "Scala extends Keyword",
+      "name": "Scala: extends Keyword",
       "scope": "keyword.declaration.scala",
       "foreground": "var(teal)"
     }, {
-      "name": "Scala Inherited Class",
+      "name": "Scala: Inherited Class",
       "scope": "entity.other.inherited-class.scala",
       "foreground": "var(green)"
     }, {
-      "name": "SSH Config 'Host' Keyword",
+      "name": "SSH: Config 'Host' Keyword",
       "scope": "keyword.declaration.host-alias.ssh_config, keyword.declaration.host.ssh_config",
       "foreground": "var(purple)"
     }, {
-      "name": "SSH Config Other Keywords",
+      "name": "SSH: Config Other Keywords",
       "scope": "keyword.other.ssh_config",
       "foreground": "var(blue)"
     }, {
-      "name": "SSH Config Constant Characters",
+      "name": "SSH: Config Constant Characters",
       "scope": "constant.character.escape.ssh_config",
       "foreground": "var(yellow)"
     }, {
-      "name": "SSH Config Shell Commands",
+      "name": "SSH: Config Shell Commands",
       "scope": "text.ssh_config variable.function.shell",
       "foreground": "var(red)"
     }, {
-      "name": "Go package Keyword",
+      "name": "Go: package Keyword",
       "scope": "keyword.other.package.go",
       "foreground": "var(purple)"
     }, {
-      "name": "Go import Name",
+      "name": "Go: import Name",
       "scope": "keyword.other.import.go",
       "foreground": "var(purple)"
     }, {
-      "name": "Go Blank Identifier",
+      "name": "Go: Blank Identifier",
       "scope": "variable.language.blank.go",
       "foreground": "var(brown)"
     }, {
-      "name": "Go Character Constant",
+      "name": "Go: Character Constant",
       "scope": "constant.character.go",
       "foreground": "var(green)"
     }, {
-      "name": "Go Character Escape",
+      "name": "Go: Character Escape",
       "scope": "constant.character.escape.go",
       "foreground": "var(teal)"
     }, {
-      "name": "Go Other Keywords",
+      "name": "Go: Other Keywords",
       "scope": "keyword.other.go",
       "foreground": "var(purple)"
+    }, {
+      "name": "go.mod: Keywords",
+      "scope": "keyword.gomod",
+      "foreground": "var(purple)"
+    }, {
+      "name": "go.mod: Variables",
+      "scope": "variable.gomod",
+      "foreground": "var(blue)"
+    }, {
+      "name": "go.mod: Parentheses",
+      "scope": "punctuation.section.parens.begin.gomod, punctuation.section.parens.end.gomod",
+      "foreground": "var(teal)"
     }
   ]
 }
