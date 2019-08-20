@@ -412,6 +412,14 @@
       "name": "XML: Variables",
       "scope": "variable.documentroot.xml",
       "foreground": "var(purple)"
+    }, {
+      "name": "XML: CDATA Punctuation",
+      "scope": "string.unquoted.cdata.xml punctuation.definition.string.begin.xml, string.unquoted.cdata.xml punctuation.definition.string.end.xml",
+      "foreground": "var(yellow)"
+    }, {
+      "name": "XML: CDATA Text",
+      "scope": "string.unquoted.cdata.xml",
+      "foreground": "var(white)"
     }
   ]
 }
