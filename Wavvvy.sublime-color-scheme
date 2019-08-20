@@ -384,6 +384,34 @@
       "name": "Terraform: Attribute Name",
       "scope": "entity.other.attribute-name.terraform",
       "foreground": "var(red)"
+    }, {
+      "name": "XML: Tag Name",
+      "scope": "meta.tag.xml",
+      "foreground": "var(red)"
+    }, {
+      "name": "XML: Punctuation",
+      "scope": "punctuation.definition.tag.begin.xml, punctuation.definition.tag.end.xml, punctuation.separator.key-value.xml",
+      "foreground": "var(teal)"
+    }, {
+      "name": "XML: Attribute Name",
+      "scope": "entity.other.attribute-name.localname.xml",
+      "foreground": "var(orange)"
+    }, {
+      "name": "XML: Preprocessor Tag",
+      "scope": "text.xml meta.tag.preprocessor.xml entity.name.tag.xml",
+      "foreground": "var(blue)"
+    }, {
+      "name": "XML: DocType Keyword",
+      "scope": "text.xml meta.tag.sgml.doctype.xml keyword.doctype.xml",
+      "foreground": "var(yellow)"
+    }, {
+      "name": "XML: DocType",
+      "scope": "meta.tag.sgml.doctype.xml",
+      "foreground": "var(green)"
+    }, {
+      "name": "XML: Variables",
+      "scope": "variable.documentroot.xml",
+      "foreground": "var(purple)"
     }
   ]
 }
