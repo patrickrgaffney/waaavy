@@ -376,6 +376,14 @@
       "name": "go.mod: Parentheses",
       "scope": "punctuation.section.parens.begin.gomod, punctuation.section.parens.end.gomod",
       "foreground": "var(teal)"
+    }, {
+      "name": "Terraform: Operators",
+      "scope": "entity.tag.embedded.start.terraform, entity.tag.embedded.end.terraform",
+      "foreground": "var(teal)"
+    }, {
+      "name": "Terraform: Attribute Name",
+      "scope": "entity.other.attribute-name.terraform",
+      "foreground": "var(red)"
     }
   ]
 }
