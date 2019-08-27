@@ -216,7 +216,7 @@
       "foreground": "var(green)",
     }, {
       "name": "Markdown: Punctuation",
-      "scope": "punctuation.definition.heading.begin.markdown, punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.end.markdown, punctuation.definition.metadata.begin.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.list_item.markdown",
+      "scope": "punctuation.definition.heading.begin.markdown, punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.end.markdown, punctuation.definition.metadata.begin.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.list_item.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown",
       "foreground": "var(teal)"
     }, {
       "name": "Markdown: FCB Language Name",
@@ -227,8 +227,8 @@
       "scope": "markup.raw.inline.markdown",
       "foreground": "var(yellow)"
     }, {
-      "name": "Markdown: Inline Link",
-      "scope": "meta.link.inline.markdown",
+      "name": "Markdown: Inline Links",
+      "scope": "meta.link.inline.markdown, meta.link.reference.def.markdown markup.underline.link.markdown",
       "foreground": "var(red)"
     }, {
       "name": "Markdown: Inline Link Description",
@@ -248,6 +248,14 @@
       "name": "Markdown: Blockquote",
       "scope": "markup.quote.markdown",
       "foreground": "var(brown)",
+    }, {
+      "name": "Markdown: Inline Link Reference Descriptions",
+      "scope": "meta.link.reference.description.markdown",
+      "foreground": "var(blue)",
+    }, {
+      "name": "Markdown: Reference Link Constant",
+      "scope": "meta.link.reference.markdown constant.other.reference.link.markdown, meta.link.reference.def.markdown entity.name.reference.link.markdown",
+      "foreground": "var(orange)",
     }, {
       "name": "Java: Keywords",
       "scope": "keyword.other.package.java, keyword.declaration.extends.java",
