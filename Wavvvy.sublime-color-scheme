@@ -420,6 +420,14 @@
       "name": "XML: CDATA Text",
       "scope": "string.unquoted.cdata.xml",
       "foreground": "var(white)"
+    }, {
+      "name": "YAML: Punctuation",
+      "scope": "entity.other.document.begin.yaml, punctuation.definition.directive.begin.yaml",
+      "foreground": "var(teal)"
+    }, {
+      "name": "YAML: Directive",
+      "scope": "source.yaml meta.directive.yaml keyword.other.directive.yaml.yaml",
+      "foreground": "var(blue)"
     }
   ]
 }
