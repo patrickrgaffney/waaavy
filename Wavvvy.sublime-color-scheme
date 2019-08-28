@@ -373,6 +373,10 @@
       "scope": "keyword.other.go",
       "foreground": "var(purple)"
     }, {
+      "name": "Go: String Interpolation Punctuation",
+      "scope": "punctuation.section.interpolation.begin.go, punctuation.section.interpolation.end.go",
+      "foreground": "var(teal)"
+    }, {
       "name": "go.mod: Keywords",
       "scope": "keyword.gomod",
       "foreground": "var(purple)"
