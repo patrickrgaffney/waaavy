@@ -447,6 +447,10 @@
       "scope": "meta.type.terraform storage.type.terraform",
       "foreground": "var(purple)",
       "font_style": "bold"
+    }, {
+      "name": "Terraform: string interpolation operators",
+      "scope": "punctuation.section.interpolation.begin.terraform, punctuation.section.interpolation.end.terraform",
+      "foreground": "var(teal)"
     }
   ]
 }
