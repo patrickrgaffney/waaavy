@@ -389,14 +389,6 @@
       "scope": "punctuation.section.parens.begin.gomod, punctuation.section.parens.end.gomod",
       "foreground": "var(teal)"
     }, {
-      "name": "Terraform: Operators",
-      "scope": "entity.tag.embedded.start.terraform, entity.tag.embedded.end.terraform",
-      "foreground": "var(teal)"
-    }, {
-      "name": "Terraform: Attribute Name",
-      "scope": "entity.other.attribute-name.terraform",
-      "foreground": "var(red)"
-    }, {
       "name": "XML: Tag Name",
       "scope": "meta.tag.xml",
       "foreground": "var(red)"
@@ -440,6 +432,21 @@
       "name": "YAML: Directive",
       "scope": "source.yaml meta.directive.yaml keyword.other.directive.yaml.yaml",
       "foreground": "var(blue)"
+    }, {
+      "name": "Terraform: Built-in variables",
+      "scope": "support.constant.terraform",
+      "foreground": "var(orange)",
+      "font_style": "italic"
+    }, {
+      "name": "Terraform: Built-in functions",
+      "scope": "support.function.builtin.terraform",
+      "foreground": "var(blue)",
+      "font_style": "italic"
+    }, {
+      "name": "Terraform: Built-in block types",
+      "scope": "meta.type.terraform storage.type.terraform",
+      "foreground": "var(purple)",
+      "font_style": "bold"
     }
   ]
 }
