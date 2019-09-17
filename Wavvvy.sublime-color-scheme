@@ -451,6 +451,15 @@
       "name": "Terraform: string interpolation operators",
       "scope": "punctuation.section.interpolation.begin.terraform, punctuation.section.interpolation.end.terraform",
       "foreground": "var(teal)"
+    }, {
+      "name": "Python: Inherited Class",
+      "scope": "meta.class.inheritance.python entity.other.inherited-class.python",
+      "foreground": "var(green)"
+    }, {
+      "name": "Python: self Keyword",
+      "scope": "meta.qualified-name.python variable.language.python",
+      "foreground": "var(red)",
+      "font_style": "italic",
     }
   ]
 }
