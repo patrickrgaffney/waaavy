@@ -445,12 +445,16 @@
     }, {
       "name": "Terraform: Built-in block types",
       "scope": "meta.type.terraform storage.type.terraform",
-      "foreground": "var(purple)",
-      "font_style": "bold"
+      "foreground": "var(purple)"
     }, {
       "name": "Terraform: string interpolation operators",
       "scope": "punctuation.section.interpolation.begin.terraform, punctuation.section.interpolation.end.terraform",
       "foreground": "var(teal)"
+    }, {
+      "name": "Terraform: block unquoted labels",
+      "scope": "meta.type.terraform entity.name.label.terraform",
+      "foreground": "var(green)",
+      "font_style": ""
     }, {
       "name": "Python: Inherited Class",
       "scope": "meta.class.inheritance.python entity.other.inherited-class.python",
