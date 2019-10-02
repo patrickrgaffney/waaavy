@@ -389,6 +389,14 @@
       "scope": "punctuation.section.parens.begin.gomod, punctuation.section.parens.end.gomod",
       "foreground": "var(teal)"
     }, {
+      "name": "go.sum: Variables",
+      "scope": "variable.gosum",
+      "foreground": "var(blue)"
+    }, {
+      "name": "go.sum: Punctuation Separators",
+      "scope": "punctuation.separator.gosum",
+      "foreground": "var(teal)"
+    }, {
       "name": "XML: Tag Name",
       "scope": "meta.tag.xml",
       "foreground": "var(red)"
