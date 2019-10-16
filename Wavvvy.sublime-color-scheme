@@ -480,6 +480,10 @@
       "name": "Postgres: Positional parameter name",
       "scope": "meta.group.parameter.expansion.psql variable.other.readwrite.psql",
       "foreground": "var(red)"
+    }, {
+      "name": "Postgres: Keyword qualifiers",
+      "scope": "keyword.other.qualifier.psql",
+      "foreground": "var(orange)"
     }
   ]
 }
