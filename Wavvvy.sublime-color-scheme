@@ -98,7 +98,7 @@
       "font_style": "italic",
     }, {
       "name": "Class Names / Struct Names / Custom Types",
-      "scope": "entity.name.struct, entity.name.type, variable.other.class, entity.name.class, support.class.builtin, support.class.error, support.class",
+      "scope": "entity.name.struct, entity.name.type, variable.other.class, entity.name.class, support.class",
       "foreground": "var(yellow)",
     }, {
       "name": "String (Constant) Placeholders",
@@ -118,6 +118,10 @@
       "scope": "variable.language.this",
       "foreground": "var(red)",
       "font_style": "italic",
+    }, {
+      "name": "Accessor Punctuation",
+      "scope": "punctuation.accessor",
+      "foreground": "var(teal)"
     }, {
       "name": "JSX: Tag",
       "scope": "meta.jsx.js meta.tag.name.js entity.name.tag.js",
