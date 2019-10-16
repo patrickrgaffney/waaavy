@@ -472,6 +472,14 @@
       "scope": "meta.qualified-name.python variable.language.python",
       "foreground": "var(red)",
       "font_style": "italic",
+    }, {
+      "name": "Postgres: Positional parameter punctuation",
+      "scope": "meta.group.parameter.expansion.psql punctuation.definition.variable.psql",
+      "foreground": "var(teal)"
+    }, {
+      "name": "Postgres: Positional parameter name",
+      "scope": "meta.group.parameter.expansion.psql variable.other.readwrite.psql",
+      "foreground": "var(red)"
     }
   ]
 }
