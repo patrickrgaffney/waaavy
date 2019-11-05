@@ -11,18 +11,73 @@
     "brown": "#AB7967",
     "white": "#CDD3DE",
     "black": "#1B2B34",
-    "grey": "#65737E"
+    "grey": "#65737E",
+    "dark_grey": "#4F5B66"
   },
   "globals": {
-    "background": "#1B2B34",
-    "foreground": "#CDD3DE",
-    "caret": "#65737E",
-    "line_highlight": "#4F5B66",
-    "fold_marker": "#FAC863",
-    "misspelling": "#EC5F67",
-    "minimap_border": "#CDD3DE",
-    "gutter": "#1B2B34",
-    "gutter_foreground": "#65737E",
+    /////////////////////////////////////////////////////////////////
+    // GLOBAL
+    /////////////////////////////////////////////////////////////////
+
+    // Default background color.
+    "background": "var(black)",
+
+    // Default foreground color.    
+    "foreground": "var(white)",
+
+    // The color for whitespace, when rendered.
+    "invisibles": "var(grey)",
+
+    // Caret color.
+    "caret": "var(grey)",
+
+    // Caret color when using a block caret.
+    "block_caret": "var(grey)",
+
+    // Background color of the lint with the caret.
+    "line_highlight": "var(dark_grey)",
+
+    /////////////////////////////////////////////////////////////////
+    // ACCENTS
+    /////////////////////////////////////////////////////////////////
+
+    // The color to use for the squiggly underline drawn under
+    // misspelled words. 
+    "misspelling": "var(red)",
+
+    // Color for inline mark that indicates content has been folded.
+    "fold_marker": "var(yellow)",
+
+    // The color of the border drawn around the viewport area of the
+    // minimap when the setting "draw_minimap_border" is enabled.
+    "minimap_border": "var(grey)",
+
+    /////////////////////////////////////////////////////////////////
+    // GUTTER
+    /////////////////////////////////////////////////////////////////
+
+    // The background color of the gutter.
+    "gutter": "var(black)",
+
+    // The color of line numbers in the gutter.
+    "gutter_foreground": "var(grey)",
+
+    /////////////////////////////////////////////////////////////////
+    // DIFF
+    /////////////////////////////////////////////////////////////////
+
+    // Width of the diff lines (1 - 8).
+    "line_diff_width": "4",
+
+    // Color of diff markers for added lines.
+    "line_diff_added": "var(green)",
+
+    // Color of diff markers for modified lines.
+    "line_diff_modified": "var(yellow)",
+
+    // Color of diff markers for deleted lines.
+    "line_diff_deleted": "var(red)",
+
     "selection": "#4F5B66",
     "selection_foreground": "#D8DEE9",
     "selection_border": "#343D46",
@@ -44,7 +99,7 @@
   },
   "rules": [
     {
-      "name": "Language-Specific Keywords (reserved words)",
+      "name": "Language Control Keywords",
       "scope": "keyword.control",
       "foreground": "var(purple)"
     }, {
@@ -97,8 +152,8 @@
       "foreground": "var(teal)",
       "font_style": "italic",
     }, {
-      "name": "Class Names / Struct Names / Custom Types",
-      "scope": "entity.name.struct, entity.name.type, variable.other.class, entity.name.class, support.class",
+      "name": "Class Names / Struct Names / Custom Types / Namespace Names",
+      "scope": "entity.name.struct, entity.name.type, variable.other.class, entity.name.class, support.class, entity.name.namespace",
       "foreground": "var(yellow)",
     }, {
       "name": "String (Constant) Placeholders",
